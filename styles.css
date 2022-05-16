@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --main-BG: hsl(217, 54%, 11%);
+    --card-BG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--main-BG);
+}
+.main-container {
+    width: 300px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-BG);
+    border-radius: 10px;
+    box-shadow: ;
+}
+.img-equilibrium {
+    width: 100%;
+    padding: 18px;
+    border-radius: 8%;
+}
+.equilibrium-container {
+    width: 100%;
+    padding: 5px 18px 18px 18px;
+}
+h1 {
+    width: 166px;
+    font-size: 20px;
+    color: var(--White);
+}
+.p-equilibrium {
+    margin-top: 15px;
+    font-size: 15px;
+    color: var(--Soft-blue);
+}
+.eth-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4px;
+}
+.img-eth {
+    width: 11px;
+    height: 17px;
+    margin-left: 14px;
+}
+.eth {
+    font-size: 15px;
+    color: var(--Cyan);
+    margin-right: 70px;
+}
+.img-clock {
+    width: 17px;
+    height: 17px;
+    margin-top: 1px;
+}
+.days {
+    margin-right: 18px;
+    font-size: 15px;
+    color: var(--Soft-blue);
+
+}
+hr {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 260px;
+    border: 0.1px solid hsl(215, 32%, 27%);
+}
+.footer-container {
+    display: flex;
+}
+.footer-container p {
+    margin-top: 22px;
+    margin-left: 14px;
+    font-size: 14px;
+    color: var(--Soft-blue);
+}
+.img-avatar {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+b {
+    color: var(--White);
+    font-weight: 500;
+}
+
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+   /* hover styles */
+
+b:hover {
+    color: var(--Cyan);
+    cursor: pointer;
+}
+h1:hover {
+    color: var(--Cyan);
+    cursor: pointer;
+}
+.img-equilibrium:hover {
+    cursor: pointer;
+}
