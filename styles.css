@@ -148,8 +148,10 @@ h1:hover {
 .img-hover:hover {
     cursor: pointer;
     background-color:hsl(178, 100%, 50%, 50%);
+    transition: 1s;
 }
 .img-hover img:hover {
     cursor: pointer;
     opacity: 1;
+    transition: 1s;
 }
